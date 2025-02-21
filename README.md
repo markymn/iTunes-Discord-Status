@@ -47,7 +47,7 @@ Installation & Setup
 
   2. Find this line:
 
-  > CLIENT_ID = "1342299802012221481"  # Replace with your App ID
+  > CLIENT_ID = "USER_CLIENT_ID"  # Replace with your App ID
 
   3. Replace it with your actual Application ID from the Developer Portal.
 

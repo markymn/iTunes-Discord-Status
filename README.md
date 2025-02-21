@@ -85,19 +85,19 @@ Installation & Setup
 
 ## Troubleshooting
 
-  # Issue: python was not found
+  ### Issue: python was not found
 
    - Ensure Python is added to your system PATH.
 
    - Try running: python --version
 
-  # Issue: iTunes opens but is frozen
+  ### Issue: iTunes opens but is frozen
 
    - Restart iTunes and run the script again.
 
    - Ensure iTunes is installed from the Apple website, not the Microsoft Store.
 
-  # Issue: Discord is not updating instantly
+  ### Issue: Discord is not updating instantly
 
    - Discord takes a few seconds to update statuses.
 

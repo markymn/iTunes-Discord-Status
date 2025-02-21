@@ -1,4 +1,4 @@
-iTunes Discord Rich Presence
+# iTunes Discord Rich Presence
 
 This script updates your Discord status with the song currently playing on iTunes using Discord Rich Presence.
 
@@ -11,25 +11,25 @@ Features
 
 Installation & Setup
 
-1. Install Python
+## 1. Install Python
 
-Ensure you have Python 3.12+ installed.
+  Ensure you have Python 3.12+ installed.
 
 Download Python
 
 Add Python to your system PATH during installation.
 
-2. Install Required Python Packages
+## 2. Install Required Python Packages
 
-Run the following command in a terminal or command prompt:
+  Run the following command in a terminal or command prompt:
 
-pip install pywin32 pypresence psutil
+  > pip install pywin32 pypresence psutil
 
-3. Enable Developer Mode in Discord
+## 3. Enable Developer Mode in Discord
 
 Go to Discord Settings → Advanced → Enable Developer Mode
 
-4. Create a Discord Rich Presence App
+## 4. Create a Discord Rich Presence App
 
 Visit the Discord Developer Portal
 
@@ -41,7 +41,7 @@ Upload a large image (e.g., iTunes logo) and name it itunes_logo
 
 Copy the Application ID (you will need this for the script)
 
-5. Edit the Script with Your App ID
+## 5. Edit the Script with Your App ID
 
 Open itunes_presence.py
 
@@ -51,7 +51,7 @@ CLIENT_ID = "1342299802012221481"  # Replace with your App ID
 
 Replace it with your actual Application ID from the Developer Portal.
 
-6. Run the Script
+## 6. Run the Script
 
 Start the script by running:
 
@@ -63,7 +63,7 @@ To stop the script, simply close iTunes.
 
 Using the Batch and VBS Files for a Shortcut
 
-You have been provided with a .bat and a .vbs file to automate launching and closing the script. Here’s how to use them together:
+## You have been provided with a .bat and a .vbs file to automate launching and closing the script. Here’s how to use them together:
 
 Ensure both files are in the same folder as itunes_presence.py.
 
@@ -73,7 +73,7 @@ This will open iTunes, start the presence script in the background, and close th
 
 To stop everything, simply close iTunes, and the script will shut down automatically.
 
-Creating a Shortcut for Easy Access
+## Creating a Shortcut for Easy Access
 
 Right-click the start_itunes_presence.vbs file and select Create Shortcut.
 
@@ -83,7 +83,7 @@ Move the shortcut to the Desktop or any preferred location.
 
 Drag the shortcut to the Taskbar for quick access.
 
-Troubleshooting
+## Troubleshooting
 
 Issue: python was not found
 
@@ -103,6 +103,6 @@ Discord takes a few seconds to update statuses.
 
 Try restarting Discord and running the script again.
 
-Credits & License
+## Credits & License
 
 This project is open-source under the MIT License. Feel free to contribute and improve it!

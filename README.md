@@ -37,7 +37,7 @@ Installation & Setup
 
   3. Navigate to "Rich Presence" → "Assets"
 
-    - Upload a large image (e.g., iTunes logo) and name it itunes_logo
+  - Upload a large image (e.g., iTunes logo) and name it itunes_logo
 
   4. Copy the Application ID (you will need this for the script)
 
@@ -65,13 +65,13 @@ Installation & Setup
 
   You have been provided with a .bat and a .vbs file to automate launching and closing the script. Here’s how to use them together:
 
-    1. Ensure both files are in the same folder as itunes_presence.py.
+  1. Ensure both files are in the same folder as itunes_presence.py.
 
-    2. Run the start_itunes_presence.vbs file to launch everything seamlessly.
+  2. Run the start_itunes_presence.vbs file to launch everything seamlessly.
 
-      - This will open iTunes, start the presence script in the background, and close the terminal window.
+   - This will open iTunes, start the presence script in the background, and close the terminal window.
 
-    3. To stop everything, simply close iTunes, and the script will shut down automatically.
+  3. To stop everything, simply close iTunes, and the script will shut down automatically.
 
 ## Creating a Shortcut for Easy Access
 
@@ -87,21 +87,21 @@ Installation & Setup
 
   # Issue: python was not found
 
-    - Ensure Python is added to your system PATH.
+   - Ensure Python is added to your system PATH.
 
-    - Try running: python --version
+   - Try running: python --version
 
   # Issue: iTunes opens but is frozen
 
-    - Restart iTunes and run the script again.
+   - Restart iTunes and run the script again.
 
-    - Ensure iTunes is installed from the Apple website, not the Microsoft Store.
+   - Ensure iTunes is installed from the Apple website, not the Microsoft Store.
 
   # Issue: Discord is not updating instantly
 
-    - Discord takes a few seconds to update statuses.
+   - Discord takes a few seconds to update statuses.
 
-    - Try restarting Discord and running the script again.
+   - Try restarting Discord and running the script again.
 
 ## Credits & License
 

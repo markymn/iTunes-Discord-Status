@@ -4,10 +4,10 @@ This script updates your Discord status with the song currently playing on iTune
 
 Features
 
-✅ Automatically updates Discord status with the current iTunes song.
-✅ Displays song title, artist name, and elapsed time.
-✅ Runs in the background and updates in real-time.
-✅ Closes when iTunes is closed.
+- Automatically updates Discord status with the current iTunes song.
+- Displays song title, artist name, and elapsed time.
+- Runs in the background and updates in real-time.
+- Closes when iTunes is closed.
 
 Installation & Setup
 

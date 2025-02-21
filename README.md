@@ -15,9 +15,9 @@ Installation & Setup
 
   Ensure you have Python 3.12+ installed.
 
-  -Download Python
+  - Download Python
 
-  -Add Python to your system PATH during installation.
+  - Add Python to your system PATH during installation.
 
 ## 2. Install Required Python Packages
 

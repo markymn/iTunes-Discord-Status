@@ -75,7 +75,7 @@ Installation & Setup
 
 ## Creating a Shortcut for Easy Access
 
-  1. Right-click the start_itunes_presence.vbs file and select Create Shortcut.
+  1. Right-click the run_itunes.vbs file and select Create Shortcut.
 
   2. Move the shortcut to the Desktop or any preferred location.
 

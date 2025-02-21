@@ -3,7 +3,7 @@ Set objWMIService = GetObject("winmgmts:\\.\root\cimv2")
 Set colProcessList = objWMIService.ExecQuery("Select * from Win32_Process where Name = 'iTunes.exe'")
 
 If colProcessList.Count = 0 Then
-    WshShell.Run """D:\schedulers\run_itunes_script.bat""", 0, False
+    WshShell.Run """PATH TO\run_itunes_script.bat""", 0, False
 Else
     WshShell.AppActivate "iTunes"
     WScript.Sleep 100
